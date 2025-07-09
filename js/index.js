@@ -2,46 +2,97 @@ window.sr = ScrollReveal();
 
 	
 	sr.reveal('.nombres1', {
-		duration: 2000, //tiempo
-		//delay:1500,
+		duration: 2500, //tiempo
+		delay:1000,
+		origin: 'top', //origen
+		distance: '300px' //distancia
+
+	}); 
+	sr.reveal('.diaP', {
+	rotate: {
+        x: 100,
+        z: 100
+    },
+		duration: 3000, //tiempo
+		delay:2500,
 		origin: 'bottom', //origen
-		distance: '100px' //distancia
+		distance: '0px' //distancia
 
 
 	}); 
-sr.reveal('.cliente', {
-		duration: 2000, //tiempo
-		//delay:1500,
+sr.reveal('.nombre', {
+		duration: 4000, //tiempo
+		delay:1000,
 		origin: 'top', //origen
+		
+		distance: '200px' //distancia
+
+
+	}); 
+sr.reveal('.music', {
+		duration: 2000, //tiempo
+		delay:100,
+		origin: 'bottom', //origen
 		
 		distance: '100px' //distancia
 
 
 	}); 
-sr.reveal('#boton2', {
+sr.reveal('.añoP', {
 		duration: 2000, //tiempo
-		//delay:1500,
-		origin: 'left', //origen
+		delay:2000,
+		origin: 'bottom', //origen
 		
 		distance: '50px' //distancia
 
 
 	}); 
-sr.reveal('.social-container', {
+sr.reveal('.mesP', {
+		duration: 2000, //tiempo
+		delay:1300,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
+sr.reveal('.mibautizo', {
 		duration: 2000, //tiempo
 		//delay:1500,
-		origin: 'bottom', //origen
+		origin: 'top', //origen
 		
-		distance: '100px' //distancia
+		distance: '50px' //distancia
+
+
+	}); 
+sr.reveal('.music', {
+		duration: 2000, //tiempo
+		//delay:1000,
+		origin: 'top', //origen
+		
+		distance: '50px' //distancia
+
+
+	}); 
+sr.reveal('.respetuosamente', {
+		duration: 2000, //tiempo
+		delay:1500,
+		origin: 'left', //origen
+		
+		distance: '150px' //distancia
 
 
 	}); 
 sr.reveal('.diaBautizo', {
+	
+	rotate: {
+        x: 50,
+        z: 100
+    },
 		duration: 2000, //tiempo
 		//delay:1500,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
+		origin: 'left', //origen
+		distance: '100px' //distancia
 
 
 	}); 
@@ -169,11 +220,11 @@ sr.reveal('.diaBautizo', {
 
 	});
 	sr.reveal('.vestimenta', {
-		duration: 1500, //tiempo
-		///delay:1000,
-		origin: 'left', //origen
-		
-		distance: '150px' //distancia
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
 		
 
 	});
@@ -213,6 +264,51 @@ sr.reveal('.diaBautizo', {
 
 
 	}); 
+			sr.reveal('.f1', {
+		duration: 1500, //tiempo
+		delay:1100,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
+		sr.reveal('.f2', {
+		duration: 1500, //tiempo
+		delay:1300,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
+		sr.reveal('.f3', {
+		duration: 1500, //tiempo
+		delay:1500,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
+		sr.reveal('.f4', {
+		duration: 1500, //tiempo
+		delay:1700,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
+		sr.reveal('.f5', {
+		duration: 1500, //tiempo
+		delay:100,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
 
 			sr.reveal('.form-register', {
 		duration: 1000, //tiempo
@@ -222,12 +318,19 @@ sr.reveal('.diaBautizo', {
 		
 
 	});
-			sr.reveal('.btnWhats', {
-		duration: 1500, //tiempo
-		//delay:700,
+			sr.reveal('.', {
+		duration: 2500, //tiempo
+		delay:1700,
+		origin: 'left', //origen
+		distance: '100px' //distancia
+
+
+	}); 
+					sr.reveal('.', {
+		duration: 2500, //tiempo
+		delay:1700,
 		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
+		distance: '100px' //distancia
 
 
 	}); 
@@ -241,17 +344,118 @@ sr.reveal('.nosCasamos', {
 	});
 
 sr.reveal('.dondeyCuando', {
-	rotate: {
-        x: 50,
-        z: 100
-    },
-		duration: 1500, //tiempo
+		duration: 2000, //tiempo
+		delay: 1000,
 		origin: 'left', //origen
-		distance: '100px', //distancia
+		distance: '150px', //distancia
 		
 
 	});
 
+sr.reveal('.porqueformas', {
+		duration: 2000, //tiempo
+		delay: 1000,
+		origin: 'bottom', //origen
+		distance: '150px', //distancia
+		
+
+	});
+sr.reveal('.pies', {
+		duration: 2000, //tiempo
+		delay: 1000,
+		origin: 'bottom', //origen
+		distance: '150px', //distancia
+		
+
+	});
+sr.reveal('.flores', {
+		duration: 3000, //tiempo
+		delay: 1000,
+		origin: 'top', //origen
+		distance: '100px', //distancia
+		
+
+	});
+sr.reveal('.ceremoniaReligiosa2', {
+		duration: 3000, //tiempo
+		delay: 1000,
+		origin: 'bottom', //origen
+		distance: '400px', //distancia
+		
+
+	});
+sr.reveal('.horas', {
+		duration: 2000, //tiempo
+		delay: 1500,
+		origin: 'top', //origen
+		distance: '100px', //distancia
+		
+
+	});
+sr.reveal('.lugar', {
+		duration: 2000, //tiempo
+		delay: 1000,
+		origin: 'left', //origen
+		distance: '150px', //distancia
+		
+
+	});
+sr.reveal('.textodondeycuando', {
+		duration: 2000, //tiempo
+		delay: 1000,
+		origin: 'left', //origen
+		distance: '150px', //distancia
+		
+
+	});
+sr.reveal('.btnComoLlegar', {
+		duration: 2000, //tiempo
+		delay: 1500,
+		origin: 'bottom', //origen
+		distance: '150px', //distancia
+		
+
+	});
+sr.reveal('.btnComoLlegar2', {
+		duration: 2000, //tiempo
+		delay: 1700,
+		origin: 'bottom', //origen
+		distance: '150px', //distancia
+		
+
+	});
+sr.reveal('.dondeyCuando2', {
+		duration: 2000, //tiempo
+		delay: 1500,
+		origin: 'top', //origen
+		distance: '100px', //distancia
+		
+
+	});
+sr.reveal('#amazonliverpool', {
+		duration: 2000, //tiempo
+		delay: 1500,
+		origin: 'bottom', //origen
+		distance: '150px', //distancia
+		
+
+	});
+sr.reveal('.foto', {
+		duration: 2000, //tiempo
+		delay: 1200,
+		origin: 'bottom', //origen
+		distance: '150px', //distancia
+		
+
+	});
+sr.reveal('.tespero', {
+		duration: 2000, //tiempo
+		delay: 1000,
+		origin: 'bottom', //origen
+		distance: '150px', //distancia
+		
+
+	});
 sr.reveal('.carousel', {
 		duration: 2000, //tiempo
 		//delay:1500,
@@ -278,7 +482,7 @@ sr.reveal('.Tituloasistenciaespero', {
 
 sr.reveal('.nompadres', {
 		duration: 1500, //tiempo
-		//delay:700,
+		delay:1500,
 		origin: 'top', //origen
 		scale: 0.10,
 		distance: '-0' //distancia
@@ -441,273 +645,49 @@ $(document).ready(function(){
 });
 
 
-$(document).ready(function(){
-	$('.menu li:has(ul)').click(function(e){
-		e.preventDefault();
-
-		if ($(this).hasClass('activado')){
-			$(this).removeClass('activado');
-			$(this).children('ul').slideUp();
-		} else {
-			$('.menu li ul').slideUp();
-			$('.menu li').removeClass('activado');
-			$(this).addClass('activado');
-			$(this).children('ul').slideDown();
-		}
-	});
-
-
-$(document).ready(function () {
- 
-    (function ($) {
- 
-        $('#filtrar').keyup(function () {
- 
-             var rex = new RegExp($(this).val(), 'i');
- 
-             $('.buscar  li').hide();
- 
-             $('.buscar  li').filter(function () {
-               return rex.test($(this).text());
-             }).show();
- 
-        })
- 
-    }(jQuery));
- 
-});
-	
-});
-function personas1() {
-    window.open("pases/inicio1.html", "_self");        
-}
-function personas2() {
-    window.open("pases/inicio2.html", "_self");        
-}
-function personas3() {
-    window.open("pases/inicio3.html", "_self");        
-}
-function personas4() {
-    window.open("pases/inicio4.html", "_self");        
-}
-function personas5() {
-    window.open("pases/inicio5.html", "_self");        
-}
-function personas6() {
-    window.open("pases/inicio6.html", "_self");        
-}
-function personas7() {
-    window.open("pases/inicio7.html", "_self");        
-}
-function personas8() {
-    window.open("pases/inicio8.html", "_self");        
-}
-function personas9() {
-    window.open("pases/inicio9.html", "_self");        
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
 }
 
-function personas10() {
-    window.open("pases/FamSolis.html", "_self");        
-}
-function personas11() {
-    window.open("pases/FamLeon.html", "_self");        
-}
-function personas12() {
-    window.open("pases/FamChaidez.html", "_self");        
-}
-function personas13() {
-    window.open("pases/FamItd.html", "_self");        
-}
-function personas14() {
-    window.open("pases/LosChavorrucos.html", "_self");        
+// Close the Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
 }
 
- function copiar1(){
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+ function copiar(){
   var origen = document.getElementById('target1');
-  var destino = document.getElementById('target10');
-  var copyFrom = document.createElement("textarea");
-  copyFrom.textContent = origen.value;
-  var body = document.getElementsByTagName('body')[0];
-  body.appendChild(copyFrom);
-  copyFrom.select();
-  document.execCommand('copy');
-  alert("Copiado al portapapeles!");
-  body.removeChild(copyFrom);
-  destino.focus();
-  document.execCommand('paste');
-}
- function copiar2(){
-  var origen = document.getElementById('target2');
-  var destino = document.getElementById('target10');
-  var copyFrom = document.createElement("textarea");
-  copyFrom.textContent = origen.value;
-  var body = document.getElementsByTagName('body')[0];
-  body.appendChild(copyFrom);
-  copyFrom.select();
-  document.execCommand('copy');
-  alert("Copiado al portapapeles!");
-  body.removeChild(copyFrom);
-  destino.focus();
-  document.execCommand('paste');
-}
- function copiar3(){
-  var origen = document.getElementById('target3');
-  var destino = document.getElementById('target10');
-  var copyFrom = document.createElement("textarea");
-  copyFrom.textContent = origen.value;
-  var body = document.getElementsByTagName('body')[0];
-  body.appendChild(copyFrom);
-  copyFrom.select();
-  document.execCommand('copy');
-  alert("Copiado al portapapeles!");
-  body.removeChild(copyFrom);
-  destino.focus();
-  document.execCommand('paste');
-}
- function copiar4(){
-  var origen = document.getElementById('target4');
-  var destino = document.getElementById('target10');
-  var copyFrom = document.createElement("textarea");
-  copyFrom.textContent = origen.value;
-  var body = document.getElementsByTagName('body')[0];
-  body.appendChild(copyFrom);
-  copyFrom.select();
-  document.execCommand('copy');
-  alert("Copiado al portapapeles!");
-  body.removeChild(copyFrom);
-  destino.focus();
-  document.execCommand('paste');
-}
- function copiar5(){
-  var origen = document.getElementById('target5');
-  var destino = document.getElementById('target10');
-  var copyFrom = document.createElement("textarea");
-  copyFrom.textContent = origen.value;
-  var body = document.getElementsByTagName('body')[0];
-  body.appendChild(copyFrom);
-  copyFrom.select();
-  document.execCommand('copy');
-  alert("Copiado al portapapeles!");
-  body.removeChild(copyFrom);
-  destino.focus();
-  document.execCommand('paste');
-}
- function copiar6(){
-  var origen = document.getElementById('target6');
-  var destino = document.getElementById('target10');
-  var copyFrom = document.createElement("textarea");
-  copyFrom.textContent = origen.value;
-  var body = document.getElementsByTagName('body')[0];
-  body.appendChild(copyFrom);
-  copyFrom.select();
-  document.execCommand('copy');
-  alert("Copiado al portapapeles!");
-  body.removeChild(copyFrom);
-  destino.focus();
-  document.execCommand('paste');
-}
- function copiar7(){
-  var origen = document.getElementById('target7');
-  var destino = document.getElementById('target10');
-  var copyFrom = document.createElement("textarea");
-  copyFrom.textContent = origen.value;
-  var body = document.getElementsByTagName('body')[0];
-  body.appendChild(copyFrom);
-  copyFrom.select();
-  document.execCommand('copy');
-  alert("Copiado al portapapeles!");
-  body.removeChild(copyFrom);
-  destino.focus();
-  document.execCommand('paste');
-}
- function copiar8(){
-  var origen = document.getElementById('target8');
-  var destino = document.getElementById('target10');
-  var copyFrom = document.createElement("textarea");
-  copyFrom.textContent = origen.value;
-  var body = document.getElementsByTagName('body')[0];
-  body.appendChild(copyFrom);
-  copyFrom.select();
-  document.execCommand('copy');
-  alert("Copiado al portapapeles!");
-  body.removeChild(copyFrom);
-  destino.focus();
-  document.execCommand('paste');
-}
- function copiar9(){
-  var origen = document.getElementById('target9');
-  var destino = document.getElementById('target10');
-  var copyFrom = document.createElement("textarea");
-  copyFrom.textContent = origen.value;
-  var body = document.getElementsByTagName('body')[0];
-  body.appendChild(copyFrom);
-  copyFrom.select();
-  document.execCommand('copy');
-  alert("Copiado al portapapeles!");
-  body.removeChild(copyFrom);
-  destino.focus();
-  document.execCommand('paste');
-}
-
-
- function copiar10(){
-  var origen = document.getElementById('target10');
-  var destino = document.getElementById('target10');
-  var copyFrom = document.createElement("textarea");
-  copyFrom.textContent = origen.value;
-  var body = document.getElementsByTagName('body')[0];
-  body.appendChild(copyFrom);
-  copyFrom.select();
-  document.execCommand('copy');
-  alert("Copiado al portapapeles!");
-  body.removeChild(copyFrom);
-  destino.focus();
-  document.execCommand('paste');
-}
- function copiar11(){
-  var origen = document.getElementById('target11');
-  var destino = document.getElementById('target10');
-  var copyFrom = document.createElement("textarea");
-  copyFrom.textContent = origen.value;
-  var body = document.getElementsByTagName('body')[0];
-  body.appendChild(copyFrom);
-  copyFrom.select();
-  document.execCommand('copy');
-  alert("Copiado al portapapeles!");
-  body.removeChild(copyFrom);
-  destino.focus();
-  document.execCommand('paste');
-}
- function copiar12(){
-  var origen = document.getElementById('target12');
-  var destino = document.getElementById('target10');
-  var copyFrom = document.createElement("textarea");
-  copyFrom.textContent = origen.value;
-  var body = document.getElementsByTagName('body')[0];
-  body.appendChild(copyFrom);
-  copyFrom.select();
-  document.execCommand('copy');
-  alert("Copiado al portapapeles!");
-  body.removeChild(copyFrom);
-  destino.focus();
-  document.execCommand('paste');
-}
- function copiar13(){
-  var origen = document.getElementById('target13');
-  var destino = document.getElementById('target10');
-  var copyFrom = document.createElement("textarea");
-  copyFrom.textContent = origen.value;
-  var body = document.getElementsByTagName('body')[0];
-  body.appendChild(copyFrom);
-  copyFrom.select();
-  document.execCommand('copy');
-  alert("Copiado al portapapeles!");
-  body.removeChild(copyFrom);
-  destino.focus();
-  document.execCommand('paste');
-}
- function copiar14(){
-  var origen = document.getElementById('target14');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
